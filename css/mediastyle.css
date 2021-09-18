@@ -1,0 +1,222 @@
+
+                     /* MEDIA QUERIES */  
+                                   
+                                       /* MOBILE */
+
+
+
+
+  @media  (max-width: 767px) {
+
+                                                                  /* links */
+
+    a {
+        color: #404040;
+        text-decoration: none;
+        font-weight: 400;
+    }
+     
+    a:link{
+        color: #404040
+    }
+    
+    a:visited{
+        color:#564E57;
+    }
+    
+    a:hover{
+        color: #f26b6b;
+    }
+    
+    a:active{
+        color: #568DB4;
+    }
+
+                                                                 /* header */
+     
+    #header {
+        width: auto;
+        height: 4.5em;
+        background-color: #F2E8DC;
+        justify-content: center;
+        display: block;
+
+    }
+
+    #header .logo {
+        background-color:  #404040;
+        width: auto;
+        height: 3em;
+        display: flex;
+        justify-content: center;
+    }
+
+    #header .logo img{
+        width: 4.5em;
+        height: auto;
+        padding-top: 0px;
+    }
+
+    #header .menu a{
+        font-size: 15px;
+        margin-right: 0px;
+        }
+    
+    #header .menu {
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+    }
+
+
+                                                                     /* footer */
+
+  
+    #footer {
+        background-color: #404040;
+        flex-direction: column-reverse;
+        margin: 0px;
+    }
+
+    #footer .redes {
+        padding-right: 7px;
+    }
+
+    #footer .redes img{
+        margin-top: 10px;
+    }
+
+    #footer .menu__footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10px;
+        background-color: #F2E8DC;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    #footer .info__footer {
+        padding: 15px;
+    }
+    
+    #footer .info__footer .pf {  
+        text-align: center;
+    }
+    
+    #footer .navegation__footer .final__title {
+        color: #404040;
+
+    }
+    
+    #footer .navegation__footer{
+        padding: 7px 10px;    
+     }
+    
+    
+    #footer .logo__footer {
+        width: 160px;
+        height: auto;
+        padding-top: 0px;
+    }
+    
+                                                                            /*NOSOTROS*/
+    #nosotros__main .texto__nosotros {
+        padding: 15px;          
+    }
+
+                                                                            /*DELIVERY*/
+
+    #main__delivery .delivery__section {
+        padding: 15px;
+        max-width: 280px;  
+        min-width: 280px;
+              
+    }
+
+                                                                            /*SUMATE*/
+
+    #form {
+        font-size: 10px;
+    }
+    
+    #form .fieldset {
+        width: 280px;
+        padding: 10px;
+        margin: 10px 0px;
+    }
+
+    #form .field {
+        width: 280px;
+    }
+
+    #form textarea {
+        width: 280px;
+    }
+
+    #form div {
+        width: 280px;
+        height: auto;
+    }
+        
+    #form .btn__pdf {
+        max-width: 250px;
+    }
+
+    #form .btn {
+        font-size: 12px;
+    }
+
+                                                                            /*CARTA*/
+
+    #main__carta .grid__carta { 
+        max-width: 280px;
+        display: flex ;
+        flex-direction: column;
+
+    }
+
+    #main__carta .img__carta {
+        width: 280px;
+        height: auto;
+    }
+    
+    #main__carta .descrpition__carta {
+        height: 200px;
+        width: auto;
+    }
+
+    .grid__carta .encabezado__carta {
+        background-color: #F2E8DC;
+        margin: 10px;
+    }
+
+    .grid__carta .encabezado__carta h2 {
+        color: #404040;
+    }
+
+    .grid__carta .links__carta {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .grid__carta .links__carta a {
+        font-size: 20px;
+    }
+
+    .grid__carta .menu__carta {
+        background-color: #F2E8DC;
+        margin: 0px 0px;
+    }
+
+
+
+
+
+
+    
+
+      
+  }   
+
