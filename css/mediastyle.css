@@ -11,13 +11,13 @@
                                                                   /* links */
 
     a {
-        color: #404040;
+        color: #404040 ;
         text-decoration: none;
         font-weight: 400;
     }
      
     a:link{
-        color: #404040
+        color: #404040;
     }
     
     a:visited{
@@ -29,7 +29,7 @@
     }
     
     a:active{
-        color: #568DB4;
+        color: #568db4;
     }
 
                                                                  /* header */
@@ -147,15 +147,15 @@
     }
 
     #form .field {
-        width: 280px;
+        width: 260px;
     }
 
     #form textarea {
-        width: 280px;
+        width: 260px;
     }
 
     #form div {
-        width: 280px;
+        width: 260px;
         height: auto;
     }
         
@@ -165,6 +165,11 @@
 
     #form .btn {
         font-size: 12px;
+    }
+
+    #form .accept__form {
+        display: inline;
+        
     }
 
                                                                             /*CARTA*/
