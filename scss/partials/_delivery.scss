@@ -1,0 +1,42 @@
+
+#main__delivery {
+    background-image: url(../Multimedia/fondo__carta.jpg);
+    width: auto;
+    height:100vh;
+    background-color: #404040;
+    display: flex;
+    justify-content: center;
+    .delivery__section {
+        background-color: #F2E8DC;
+        width: 400px;
+        height: auto;
+        padding: 40px 60px ;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        opacity: 80%;
+    }
+    .botones__delivery{
+        display: flex;    
+        flex-direction: column;
+        align-content: center;
+    }
+    .img__delivery {
+        height: 40px;
+        width: auto;
+    }
+    button {
+        height: 80px;
+        width: 100%;
+        border-radius: 40px;
+        margin: 20px 0px;
+        border: #404040 2px solid;
+        background-color:white;
+        &:hover {
+            border: #f26b6b 2px solid;
+            background-color: #F9DFD6;
+        }        
+    }
+
+}
+

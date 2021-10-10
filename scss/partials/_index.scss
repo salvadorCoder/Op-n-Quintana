@@ -1,0 +1,41 @@
+
+
+#main__index {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+    background-color: #F2E8DC;
+    background-image: url(../Multimedia/ramenfondo.jpg);  
+    background-size: cover;
+        .transparent__container {
+        background-color: #F2E8DC;
+        width: 250px;
+        height: auto;
+        opacity: 80%;
+        padding: 20px;
+        margin: auto;
+            .titulo__principal {
+            color: #404040;
+            font-size: 80px;
+            font-weight: 200;
+            width: 250px;
+            padding-left: 10px;    
+        }
+        img {
+            width: 100px;  
+            height: auto;
+            display: block;
+            margin: auto;
+            transition: transform .5s;            
+            &:hover {
+                transform: scale(1.1);     
+            }
+        }
+        
+    }
+}
+
+
+        
+

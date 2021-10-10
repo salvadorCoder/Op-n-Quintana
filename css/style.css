@@ -1,537 +1,580 @@
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 18px;
-    font-family: 'Jost', sans-serif; ;
-}
-
-                                                              /* GENERALES */
-
-body{
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-size: 18px;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Jost', sans-serif;
 }
 
 a {
-    color: #F2E8DC ;
-    text-decoration: none ;
-    font-weight: 400;
-}
- 
-a:link{
-    color: #F2E8DC ;
+  color: #F2E8DC;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-a:visited{
-    color:#C9C0AD ;
+a:link {
+  color: #F2E8DC;
 }
 
-a:hover{
-    color: #568DB4 ;
+a:visited {
+  color: #C9C0AD;
 }
 
+a:hover {
+  color: #568DB4;
+}
 
-a:active{
-    color: #F2E8DC;
+a:active {
+  color: #F2E8DC;
+}
+
+h2, h3 {
+  color: #404040;
+  font-weight: 400;
+  text-align: center;
 }
 
 h2 {
-  color: #404040;
   font-size: 50px;
-  font-weight: 400;
-  text-align: center;  
 }
-h3{
-    color: #404040;
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
+
+h3 {
+  font-size: 30px;
 }
-p { color: #404040;
 
- }
+p {
+  color: #404040;
+}
 
- ul {
-     list-style: none;
- }
-
-
-                                                                        /* HEADER */
+ul {
+  list-style: none;
+}
 
 #header {
-    width: auto;
-    height: 110px;
-    background-color: #404040;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+  width: auto;
+  height: 110px;
+  background-color: #404040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#header .logo img{
-    width: 170px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
+#header .logo img {
+  width: 170px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
 }
- 
+
 #header .menu ul {
-    margin: 0px;
+  margin: 0px;
 }
 
-#header .menu li{
-     display: inline-block;    
+#header .menu li {
+  display: inline-block;
 }
 
-#header .menu a{
-    width: 2px;
-    height: auto; 
-    padding: 0px 5px 0px 0px;
-    margin: 0px 15px 5px 0px;
+#header .menu a {
+  width: 2px;
+  height: auto;
+  padding: 0px 5px 0px 0px;
+  margin: 0px 15px 5px 0px;
 }
-
-
-                                                                      /* MAIN INDEX */
 
 #main__index {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: 100vh;
-    background-color: #F2E8DC;
-    background-image: url(../Multimedia/ramenfondo.jpg);  /* acá quiero poner un banner animado con imagenes o una foto estatica ocupando todo el fondo */
-    background-size: cover;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  height: 100vh;
+  background-color: #F2E8DC;
+  background-image: url(../Multimedia/ramenfondo.jpg);
+  background-size: cover;
 }
 
-
 #main__index .transparent__container {
-    background-color: #F2E8DC;
-    width: 250px;
-    height: auto;
-    opacity: 80%;
-    padding: 20px;
-    margin: auto;
+  background-color: #F2E8DC;
+  width: 250px;
+  height: auto;
+  opacity: 80%;
+  padding: 20px;
+  margin: auto;
 }
 
 #main__index .transparent__container .titulo__principal {
-    color: #404040;
-    font-size: 80px;
-    font-weight: 200;
-    width: 250px;
-    padding-left: 10px;    
+  color: #404040;
+  font-size: 80px;
+  font-weight: 200;
+  width: 250px;
+  padding-left: 10px;
 }
-        
 
 #main__index .transparent__container img {
-    width: 100px;  
-    height: auto;
-    display: block;
-    margin: auto;
-    transition: transform .5s;    
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
 #main__index .transparent__container img:hover {
-    transform: scale(1.1);     
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
-                                                          /* NOSOTROS MAIN */
 
 #nosotros__main {
-    display: flex;
-    justify-content: center;
-    height: max-content;
-    width: auto;
-    background-image: url(../Multimedia/img__nosotros3.jpg);
-    background-size: cover;
-    background-color: #F2E8DC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: auto;
+  background-image: url(../Multimedia/img__nosotros3.jpg);
+  background-size: cover;
+  background-color: #F2E8DC;
 }
 
 #nosotros__main .texto__nosotros {
-    background-color: #F2E8DC;
-    max-width: 600px;
-    min-width: 250px;
-    padding: 40px 60px ;
-    margin: 60px; 
-    opacity: 85%;
+  background-color: #F2E8DC;
+  max-width: 600px;
+  min-width: 250px;
+  padding: 40px 60px;
+  margin: 60px;
+  opacity: 85%;
 }
 
-#nosotros__main .texto__nosotros h2 {
-    padding-bottom: 20px;
+#nosotros__main h2 {
+  padding-bottom: 20px;
 }
 
-#nosotros__main  p {
-    padding: 10px;
-    text-align: justify;
-} 
+#nosotros__main p {
+  padding: 10px;
+  text-align: justify;
+}
 
 #nosotros__main .italic__p {
-    font-style: italic;
-    text-align: center;
+  font-style: italic;
+  text-align: center;
 }
 
 #nosotros__main .boldTitle {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 #nosotros__main .italicTitle {
-    font-style: italic;
+  font-style: italic;
 }
-
-                                                 /* CARTA MAIN */
-
-#main__carta {
-    background-image: url(../Multimedia/img__nosotros2.jpg);
-    background-size: auto;
-    background-color: #F2E8DC;
-    height: max-content;
-    width: auto;
-    display: flex;
-    justify-content: center;
-}
-
-#main__carta .img__carta {
-    width: 220px;
-    height: auto;
-}
-
-#main__carta .titulos__carta {
-    color: #568DB4;
-    font-size: 40px;
-    font-weight: 500;
-}
-
-
-
-#main__carta .name__item {
-    color: #404040;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    padding: 20px;
-}
-
-#main__carta .descrpition__carta {
-    color: #f26b6b;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    padding: 20px;
-    height: 250px;
-}
-
-#main__carta .descrpition__bebidas {
-    color: #f26b6b;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    padding: 20px;
-    height: 100px;
-}
-
-#main__carta .precio__carta {
-    font-size: 15px;
-    font-weight: 500;
-    text-align: center;
-    color: #F2E8DC;
-    background-color: #404040;
-    padding: 5px;
-    margin: 15px;
-    border-radius: 25px;  
-}
-
-#main__carta .grid__carta {
-    background-color: #F2E8DC;  
-    opacity: 80%;
-    margin: 40px 0px;
-    max-width: 696px;
-    height: max-content;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3, 0.3fr) repeat(2, 2fr) 0.3fr 2fr 0.3fr repeat(2, 2fr);
-    gap: 1rem;
-    grid-template-areas: 
-        "encabezado__carta encabezado__carta encabezado__carta"
-        "links__carta links__carta links__carta"
-        "encabezado__secciones encabezado__secciones encabezado__secciones"
-        "item__carta item__carta item__carta"
-        "item__carta item__carta ."
-        "encabezado__secciones encabezado__secciones encabezado__secciones"
-        "item__carta item__carta ."
-        "encabezado__secciones encabezado__secciones encabezado__secciones"
-        "item__carta item__carta item__carta"
-        "item__carta item__carta ." ;
-
-}
-
-.grid__carta .encabezado__carta {
-    grid-column: 1/4;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    margin: 20px 40px;
-    margin-top: 40px;
-}
-
-.grid__carta .encabezado__carta h2 {
-    color: #404040;
-}
-
-.grid__carta .menu__carta {
-    grid-column: 1/4;
-    margin: 0px 40px;
-}
-
-.grid__carta .links__carta {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 31.4px 0px;
-}
-
-.grid__carta .links__carta a{
-    color: #404040;
-    font-size: 30px;
-    font-weight: 450;
-    opacity: 100%;
-}
-
-.grid__carta .links__carta a:visited {
-    color:#564E57;
-}
-
-.grid__carta .links__carta a:hover{
-    color: #f26b6b;
-}
-
-.grid__carta .links__carta a:active {
-    color: #568DB4;
-}
-
-
-.grid__carta .encabezado__secciones {
-    grid-column: 1/4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid__carta .item__carta {
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-
-
-
-
-
-
-                                                        /* MAIN DELIVERY */
 
 #main__delivery {
-    background-image: url(../Multimedia/fondo__carta.jpg);
-    width: auto;
-    height:100vh;
-    background-color: #404040;
-    display: flex;
-    justify-content: center;
+  background-image: url(../Multimedia/fondo__carta.jpg);
+  width: auto;
+  height: 100vh;
+  background-color: #404040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #main__delivery .delivery__section {
-    background-color: #F2E8DC;
-    width: 400px;
-    height: auto;
-    padding: 40px 60px ;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    opacity: 80%;
+  background-color: #F2E8DC;
+  width: 400px;
+  height: auto;
+  padding: 40px 60px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 80%;
 }
-#main__delivery .botones__delivery{
-    display: flex;    
-    flex-direction: column;
-    align-content: center;
+
+#main__delivery .botones__delivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 #main__delivery .img__delivery {
-    height: 40px;
-    width: auto;
+  height: 40px;
+  width: auto;
 }
 
 #main__delivery button {
-    height: 80px;
-    width: 100%;
-    border-radius: 40px;
-    margin: 20px 0px;
-    border: #404040 2px solid;
-    background-color:white;
-    
+  height: 80px;
+  width: 100%;
+  border-radius: 40px;
+  margin: 20px 0px;
+  border: #404040 2px solid;
+  background-color: white;
 }
 
 #main__delivery button:hover {
-    border: #f26b6b 2px solid;
-    background-color: #F9DFD6;
+  border: #f26b6b 2px solid;
+  background-color: #F9DFD6;
 }
 
+#main__carta {
+  background-image: url(../Multimedia/img__nosotros2.jpg);
+  background-size: auto;
+  background-color: #F2E8DC;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
-                                                          /* SUMATE MAIN */
+#main__carta .img__carta {
+  width: 220px;
+  height: auto;
+}
+
+#main__carta .titulos__carta {
+  color: #568DB4;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#main__carta .name__item {
+  color: #404040;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+
+#main__carta .descrpition__carta {
+  color: #f26b6b;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 20px;
+  height: 250px;
+}
+
+#main__carta .descrpition__bebidas {
+  color: #f26b6b;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 20px;
+  height: 100px;
+}
+
+#main__carta .precio__carta {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #F2E8DC;
+  background-color: #404040;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 25px;
+}
+
+#main__carta .grid__carta {
+  background-color: #F2E8DC;
+  opacity: 80%;
+  margin: 40px 0px;
+  max-width: 696px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (0.3fr)[3] (2fr)[2] 0.3fr 2fr 0.3fr (2fr)[2];
+      grid-template-rows: repeat(3, 0.3fr) repeat(2, 2fr) 0.3fr 2fr 0.3fr repeat(2, 2fr);
+  gap: 1rem;
+  /*         grid-template-areas: 
+            "encabezado__carta encabezado__carta encabezado__carta"
+            "links__carta links__carta links__carta"
+            "encabezado__secciones encabezado__secciones encabezado__secciones"
+            "item__carta item__carta item__carta"
+            "item__carta item__carta ."
+            "encabezado__secciones encabezado__secciones encabezado__secciones"
+            "item__carta item__carta ."
+            "encabezado__secciones encabezado__secciones encabezado__secciones"
+            "item__carta item__carta item__carta"
+            "item__carta item__carta ." ; */
+}
+
+#main__carta .grid__carta .encabezado__carta {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 40px;
+  margin-top: 40px;
+}
+
+#main__carta .grid__carta .menu__carta {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  margin: 0px 40px;
+}
+
+#main__carta .grid__carta .encabezado__secciones {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main__carta .grid__carta .item__carta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main__carta .grid__carta .links__carta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 31.4px 0px;
+}
+
+#main__carta .grid__carta .links__carta a {
+  color: #404040;
+  font-size: 30px;
+  font-weight: 450;
+  opacity: 100%;
+}
+
+#main__carta .grid__carta .links__carta a:visited {
+  color: #564E57;
+}
+
+#main__carta .grid__carta .links__carta a:hover {
+  color: #f26b6b;
+}
+
+#main__carta .grid__carta .links__carta a:active {
+  color: #568DB4;
+}
+
+#sumate__titulo {
+  padding-bottom: 30px;
+}
 
 #sumate__main {
-    background-image: url(../Multimedia/img_nosotros.jpg);
-    background-size:cover;
-    width: auto;
-    height: max-content;
-    background-color: #404040;
-    display: flex;
-    justify-content: center;
-}
- 
-#sumate__titulo{
-    color: #404040;
-    padding-bottom: 30px;
-}
-
-#form textarea {
-    width: 420px;
-    height: 150px;
-    padding: 10px 0px;
+  background-image: url(../Multimedia/img_nosotros.jpg);
+  background-size: cover;
+  width: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #404040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-
-#form .fieldset {
-    background-color: #F2E8DC;
-    width: 500px;   
-    height: auto;
-    padding: 40px;
-    margin: 40px;
-    opacity: 80% ;
- }
-
-#form .letra__chica {
-    font-size: 14px;
+#sumate__main #form textarea {
+  width: 420px;
+  height: 150px;
+  padding: 10px 0px;
 }
 
-#form .center__btn {
-    text-align: center;
+#sumate__main #form .fieldset {
+  background-color: #F2E8DC;
+  width: 500px;
+  height: auto;
+  padding: 40px;
+  margin: 40px;
+  opacity: 80%;
 }
 
-#form .field {
-    padding: 10px;
-    width: 420px;
-    border: solid 1px #ccc;
-    border-radius: 5px;
+#sumate__main #form .letra__chica {
+  font-size: 14px;
 }
 
-#form div{
-    padding: 10px 0px;
+#sumate__main #form .center__btn {
+  text-align: center;
 }
 
-#form .btn {
-    color: #404040 !important;
-    height: 40px;
-    width: 50%;
-    border-radius: 40px;
-    margin: 10px 0px;
-    border: #404040 2px solid;
-    background-color: white;
+#sumate__main #form .field {
+  padding: 10px;
+  width: 420px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
 }
 
-#form .btn:hover {
-    border: #f26b6b 2px solid;
-    background-color: #F9DFD6;
+#sumate__main #form div {
+  padding: 10px 0px;
 }
 
-#form .accept__form {
-    font-size: 15px;
+#sumate__main #form .btn {
+  color: #404040;
+  height: 40px;
+  width: 50%;
+  border-radius: 40px;
+  margin: 10px 0px;
+  border: #404040 2px solid;
+  background-color: white;
 }
 
+#sumate__main #form .btn:hover {
+  border: #f26b6b 2px solid;
+  background-color: #F9DFD6;
+}
 
-
-
-
-
-
-
-
-
-                                                             /* FOOTER */
+#sumate__main #form .accept__form {
+  font-size: 15px;
+}
 
 #footer {
-    width: auto;
-    height: auto;
-    background-color: #404040;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px;
+  width: auto;
+  height: auto;
+  background-color: #404040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
 }
 
 #footer .menu__footer {
-    display: flex;
-    flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #footer .info__footer .pf {
-    color: #F2E8DC;
-    font-style: normal;
-    font-size: 12px;
-    font-weight: 100;
+  color: #F2E8DC;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 100;
 }
 
 #footer .navegation__footer {
-    padding: 10px;
-}
-
-#footer .navegation__footer .final__title {
-    color: #F2E8DC;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 150;
+  padding: 10px;
 }
 
 #footer .navegation__footer ul {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 #footer .navegation__footer li {
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 100;
-    padding: 2px;
-    margin: 0px;
-    line-height: 15px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 100;
+  padding: 2px;
+  margin: 0px;
+  line-height: 15px;
 }
 
-#footer .navegation__footer a{
-    font-weight: 100;
-    font-size: small;
-} 
+#footer .navegation__footer a {
+  font-weight: 100;
+  font-size: small;
+}
+
+#footer .final__title {
+  color: #F2E8DC;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 150;
+}
 
 #footer .logo__footer {
-    width: 120px;
-    height: auto;
-    padding-top: 10px;
+  width: 120px;
+  height: auto;
+  padding-top: 10px;
 }
 
-#footer .redes img{
-    width: 20px;
-    height: auto;
-    transition: transform .5s;
+#footer .redes img {
+  width: 20px;
+  height: auto;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
 #footer .redes img:hover {
-    transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
-
-
-                                             
-
+/*# sourceMappingURL=style.css.map */

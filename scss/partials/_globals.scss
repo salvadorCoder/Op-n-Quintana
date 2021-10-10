@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif; ;
+}
+
+a {
+    color: #F2E8DC ;
+    text-decoration: none ;
+    font-weight: 500;
+    &:link{
+    color: #F2E8DC ;
+    }
+    &:visited{
+    color:#C9C0AD ;
+    }
+    &:hover{
+    color: #568DB4 ;
+    }
+    &:active{
+    color: #F2E8DC;
+    }
+}
+
+h2, h3 {
+    color: #404040;
+    font-weight: 400;
+    text-align: center;  
+  }
+  h2{
+      font-size: 50px;
+  }
+  h3{      
+      font-size: 30px;
+  }
+
+  p { 
+      color: #404040;  
+   }
+  
+   ul {
+       list-style: none;
+   }

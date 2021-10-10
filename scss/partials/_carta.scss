@@ -1,0 +1,126 @@
+#main__carta {
+    background-image: url(../Multimedia/img__nosotros2.jpg);
+    background-size: auto;
+    background-color: #F2E8DC;
+    height: max-content;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    .img__carta {
+        width: 220px;
+        height: auto;
+    }
+    .titulos__carta {
+        color: #568DB4;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .name__item {
+        color: #404040;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        padding: 20px;
+    }
+    .descrpition__carta {
+        color: #f26b6b;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding: 20px;
+        height: 250px;
+    }
+    .descrpition__bebidas {
+        color: #f26b6b;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding: 20px;
+        height: 100px;
+    }
+    .precio__carta {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        color: #F2E8DC;
+        background-color: #404040;
+        padding: 5px;
+        margin: 15px;
+        border-radius: 25px;  
+    }
+    .grid__carta {
+        background-color: #F2E8DC;  
+        opacity: 80%;
+        margin: 40px 0px;
+        max-width: 696px;
+        height: max-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3, 0.3fr) repeat(2, 2fr) 0.3fr 2fr 0.3fr repeat(2, 2fr);
+        gap: 1rem;
+/*         grid-template-areas: 
+            "encabezado__carta encabezado__carta encabezado__carta"
+            "links__carta links__carta links__carta"
+            "encabezado__secciones encabezado__secciones encabezado__secciones"
+            "item__carta item__carta item__carta"
+            "item__carta item__carta ."
+            "encabezado__secciones encabezado__secciones encabezado__secciones"
+            "item__carta item__carta ."
+            "encabezado__secciones encabezado__secciones encabezado__secciones"
+            "item__carta item__carta item__carta"
+            "item__carta item__carta ." ; */
+            .encabezado__carta {
+                grid-column: 1/4;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                margin: 20px 40px;
+                margin-top: 40px;
+            }
+            .menu__carta {
+                grid-column: 1/4;
+                margin: 0px 40px;
+            }
+            .encabezado__secciones {
+                grid-column: 1/4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .item__carta {
+                display: flex;
+                flex-direction: column;
+            }
+            .links__carta {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 31.4px 0px;
+                a{
+                    color: #404040;
+                    font-size: 30px;
+                    font-weight: 450;
+                    opacity: 100%;
+                    &:visited {
+                        color:#564E57;
+                    }
+                    &:hover{
+                        color: #f26b6b;
+                    }
+                    &:active {
+                        color: #568DB4;
+                    }                  
+                }
+                
+            }
+            }
+}
+
+
+
+
+
+

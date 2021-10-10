@@ -1,0 +1,38 @@
+#nosotros__main {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    width: auto;
+    background-image: url(../Multimedia/img__nosotros3.jpg);
+    background-size: cover;
+    background-color: #F2E8DC;
+        .texto__nosotros {
+        background-color: #F2E8DC;
+        max-width: 600px;
+        min-width: 250px;
+        padding: 40px 60px ;
+        margin: 60px; 
+        opacity: 85%;
+    }
+    h2 {
+        padding-bottom: 20px;
+    }
+    p {
+        padding: 10px;
+        text-align: justify;
+    } 
+    .italic__p {
+        font-style: italic;
+        text-align: center;
+    }
+    .boldTitle {
+        font-weight: 600;
+    }
+    .italicTitle {
+        font-style: italic;
+    }
+}
+
+
+
+
