@@ -1,0 +1,63 @@
+#sumate__main {
+    background-image: url(../Multimedia/img_nosotros.jpg);
+    background-size:cover;
+    width: auto;
+    height: max-content;
+    background-color: #404040;
+    display: flex;
+    justify-content: center;
+}
+ 
+#sumate__titulo{
+    color: #404040;
+    padding-bottom: 30px;
+}
+
+#form textarea {
+    width: 500px;
+    height: 150px;
+    padding: 10px 0px;
+}
+
+
+#form .fieldset {
+    background-color: #F2E8DC;
+    width: 500px;   
+    height: auto;
+    padding: 40px;
+    margin: 40px;
+    opacity: 80% ;
+ }
+
+#form .letra__chica {
+    font-size: 14px;
+}
+
+#form .center__btn {
+    text-align: center;
+}
+
+#form .field {
+    padding: 10px;
+    width: 500px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+#form div{
+    padding: 10px 0px;
+}
+
+#form .btn {
+    height: 40px;
+    width: 50%;
+    border-radius: 40px;
+    margin: 10px 0px;
+    border: #404040 2px solid;
+    background-color: white;
+}
+
+#form .btn:hover {
+    border: #f26b6b 2px solid;
+    background-color: #F9DFD6;
+}

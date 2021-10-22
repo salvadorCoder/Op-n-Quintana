@@ -312,6 +312,10 @@ ul {
   border-radius: 25px;
 }
 
+#main__carta .secciones__carta {
+  padding: 6px;
+}
+
 #main__carta .grid__carta {
   background-color: #F2E8DC;
   opacity: 80%;
@@ -327,17 +331,6 @@ ul {
   -ms-grid-rows: (0.3fr)[3] (2fr)[2] 0.3fr 2fr 0.3fr (2fr)[2];
       grid-template-rows: repeat(3, 0.3fr) repeat(2, 2fr) 0.3fr 2fr 0.3fr repeat(2, 2fr);
   gap: 1rem;
-  /*         grid-template-areas: 
-            "encabezado__carta encabezado__carta encabezado__carta"
-            "links__carta links__carta links__carta"
-            "encabezado__secciones encabezado__secciones encabezado__secciones"
-            "item__carta item__carta item__carta"
-            "item__carta item__carta ."
-            "encabezado__secciones encabezado__secciones encabezado__secciones"
-            "item__carta item__carta ."
-            "encabezado__secciones encabezado__secciones encabezado__secciones"
-            "item__carta item__carta item__carta"
-            "item__carta item__carta ." ; */
 }
 
 #main__carta .grid__carta .encabezado__carta {
@@ -407,7 +400,7 @@ ul {
 
 #main__carta .grid__carta .links__carta a {
   color: #404040;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 450;
   opacity: 100%;
 }
@@ -422,10 +415,6 @@ ul {
 
 #main__carta .grid__carta .links__carta a:active {
   color: #568DB4;
-}
-
-#sumate__titulo {
-  padding-bottom: 30px;
 }
 
 #sumate__main {
@@ -444,13 +433,18 @@ ul {
           justify-content: center;
 }
 
-#sumate__main #form textarea {
-  width: 420px;
+#sumate__titulo {
+  color: #404040;
+  padding-bottom: 30px;
+}
+
+#form textarea {
+  width: 500px;
   height: 150px;
   padding: 10px 0px;
 }
 
-#sumate__main #form .fieldset {
+#form .fieldset {
   background-color: #F2E8DC;
   width: 500px;
   height: auto;
@@ -459,27 +453,26 @@ ul {
   opacity: 80%;
 }
 
-#sumate__main #form .letra__chica {
+#form .letra__chica {
   font-size: 14px;
 }
 
-#sumate__main #form .center__btn {
+#form .center__btn {
   text-align: center;
 }
 
-#sumate__main #form .field {
+#form .field {
   padding: 10px;
-  width: 420px;
+  width: 500px;
   border: solid 1px #ccc;
   border-radius: 5px;
 }
 
-#sumate__main #form div {
+#form div {
   padding: 10px 0px;
 }
 
-#sumate__main #form .btn {
-  color: #404040;
+#form .btn {
   height: 40px;
   width: 50%;
   border-radius: 40px;
@@ -488,13 +481,9 @@ ul {
   background-color: white;
 }
 
-#sumate__main #form .btn:hover {
+#form .btn:hover {
   border: #f26b6b 2px solid;
   background-color: #F9DFD6;
-}
-
-#sumate__main #form .accept__form {
-  font-size: 15px;
 }
 
 #footer {

@@ -50,6 +50,9 @@
         margin: 15px;
         border-radius: 25px;  
     }
+    .secciones__carta {
+        padding: 6px;
+    }
     .grid__carta {
         background-color: #F2E8DC;  
         opacity: 80%;
@@ -60,17 +63,7 @@
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(3, 0.3fr) repeat(2, 2fr) 0.3fr 2fr 0.3fr repeat(2, 2fr);
         gap: 1rem;
-/*         grid-template-areas: 
-            "encabezado__carta encabezado__carta encabezado__carta"
-            "links__carta links__carta links__carta"
-            "encabezado__secciones encabezado__secciones encabezado__secciones"
-            "item__carta item__carta item__carta"
-            "item__carta item__carta ."
-            "encabezado__secciones encabezado__secciones encabezado__secciones"
-            "item__carta item__carta ."
-            "encabezado__secciones encabezado__secciones encabezado__secciones"
-            "item__carta item__carta item__carta"
-            "item__carta item__carta ." ; */
+        
             .encabezado__carta {
                 grid-column: 1/4;
                 display: flex;
@@ -101,7 +94,7 @@
                 margin: 31.4px 0px;
                 a{
                     color: #404040;
-                    font-size: 30px;
+                    font-size: 25px;
                     font-weight: 450;
                     opacity: 100%;
                     &:visited {

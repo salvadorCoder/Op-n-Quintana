@@ -80,10 +80,12 @@
 
     #footer .redes {
         padding-right: 7px;
+        
     }
 
     #footer .redes img{
-        margin-top: 10px;
+        margin: 15px 0px;
+
     }
 
     #footer .menu__footer {
@@ -102,6 +104,7 @@
     
     #footer .info__footer .pf {  
         text-align: center;
+        margin: 0px;
     }
     
     #footer .navegation__footer .final__title {
@@ -147,15 +150,15 @@
     }
 
     #form .field {
-        width: 260px;
+        width: 280px;
     }
 
     #form textarea {
-        width: 260px;
+        width: 280px;
     }
 
     #form div {
-        width: 260px;
+        width: 280px;
         height: auto;
     }
         
@@ -166,12 +169,6 @@
     #form .btn {
         font-size: 12px;
     }
-
-    #form .accept__form {
-        display: inline;
-        
-    }
-
                                                                             /*CARTA*/
 
     #main__carta .grid__carta { 
@@ -207,7 +204,7 @@
     }
 
     .grid__carta .links__carta a {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .grid__carta .menu__carta {
