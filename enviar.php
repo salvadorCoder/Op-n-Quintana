@@ -37,9 +37,11 @@ $message .= "Acepta términos: " . $acepta . " \r\n";
 
 mail($destinatario, utf8_decode($message), $header);
 
-echo "<script>alert('¡Gracias, estaremos en contacto con vos!')</script>";
+echo "<script>alert('¡Gracias! Estaremos en contacto con vos')</script>";
 echo "<script> setTimeout(\"location.href='index.html'\",1000) </script>";
 
+
 header("Location:index.html");
-?>
+
+?>   
 
